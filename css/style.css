@@ -1,0 +1,292 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header-section {
+  height: 70vh;
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.headline {
+  height: 23%;
+  width: 30%;
+  border-left: 4px solid rgb(5, 3, 122);
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5rem;
+  margin-top: 6rem;
+  margin-left: 6rem;
+  margin-bottom: 2rem;
+  padding-left: 0.5rem;
+}
+
+.headline span {
+  color: rgb(8, 108, 189);
+}
+
+.header-text {
+  height: 10%;
+  width: 30%;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 6rem;
+  margin-bottom: 3rem;
+  text-align: justify;
+}
+
+button {
+  height: 8%;
+  width: 8%;
+  border-left: 4px solid rgb(5, 3, 122);
+  background-color: rgb(5, 3, 122);
+  color: white;
+  margin-left: 6rem;
+  margin-bottom: 1rem;
+}
+
+.header-small-text {
+  font-family: 'Roboto', sans-serif;
+  margin-left: 6rem;
+}
+
+.header-image {
+  height: 35%;
+  width: 35%;
+  position: absolute;
+  bottom: 55%;
+  left: 50%;
+}
+
+.header-image img {
+  border-radius: 10%;
+}
+
+.mission-section {
+  height: 70vh;
+  margin-bottom: 3rem;
+}
+
+.mission-header {
+  justify-content: center;
+  text-align: center;
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+}
+
+.mission-header span {
+  color: rgba(177, 23, 82, 0.76);
+}
+
+.mission-boxes {
+  height: 90%;
+  display: flex;
+  padding: 10px;
+  margin-left: 15%;
+}
+
+.missions {
+  height: 80%;
+  width: 25%;
+  margin: 10px;
+  background-color: #ff847b;
+}
+
+.mission-image {
+  height: 60%;
+  width: 60%;
+}
+.mission-image img {
+  height: 100%;
+  width: 100%;
+}
+
+.mission-text-header {
+  padding-left: 1.2rem;
+  font-size: 2rem;
+}
+
+.mission-text {
+  padding-top: 1rem;
+  padding-left: 1.2rem;
+}
+
+.visions {
+  height: 80%;
+  width: 25%;
+  margin: 10px;
+  background-color: #dfeede;
+}
+
+.goals {
+  height: 80%;
+  width: 25%;
+  margin: 10px;
+  background-color: #128c7e;
+}
+
+.work-culture-section {
+  height: 70vh;
+  width: 100vw;
+  margin-bottom: 3rem;
+  display: flex;
+}
+
+.work-culture-image {
+  margin: 5rem;
+  margin-right: 3rem;
+  margin-left: 7rem;
+}
+
+.work-culture-image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 20%;
+}
+
+.work-culture-text {
+  padding: 0;
+}
+
+.work-culture-text h1 {
+  margin: 8rem;
+  margin-left: 0rem;
+  margin-bottom: 2rem;
+  font-size: 2.4rem;
+}
+
+.work-culture-text p {
+  margin-bottom: 2rem;
+}
+
+#our-team-button {
+  height: 10%;
+  width: 20%;
+  background-color: rgb(5, 3, 122);
+  color: white;
+  margin-right: 5rem;
+  position: relative;
+  right: 6rem;
+}
+
+.work-culture-shape {
+  height: 20vh;
+  width: 20vw;
+  position: relative;
+  bottom: 50%;
+  left: 110%;
+}
+
+.diversity-section {
+  height: 70vh;
+  width: 100vw;
+  margin-left: 6.5rem;
+  margin-bottom: 3rem;
+  display: flex;
+}
+
+.diversity-image {
+  margin: 2rem;
+  /* margin-right: 3rem; */
+  margin-left: 12rem;
+}
+
+.diversity-image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 20%;
+}
+
+.diversity-text {
+  padding: 0;
+}
+
+.diversity-text h1 {
+  margin: 8rem;
+  margin-left: 0rem;
+  margin-bottom: 2rem;
+  font-size: 2.4rem;
+}
+
+.diversity-text p {
+  margin-bottom: 2rem;
+}
+
+#our-team-button {
+  height: 10%;
+  width: 20%;
+  background-color: rgb(5, 3, 122);
+  color: white;
+  margin-right: 5rem;
+  position: relative;
+  right: 6rem;
+}
+
+.diversity-shape {
+  height: 20vh;
+  width: 20vw;
+  position: relative;
+  bottom: 50%;
+  left: 110%;
+}
+
+.meet-leaders-section {
+  height: 70vh;
+  position: relative;
+}
+
+.meet-leaders-header {
+  justify-content: center;
+  text-align: center;
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+}
+
+.meet-leaders-header span {
+  color: rgba(177, 23, 82, 0.76);
+}
+
+.flex-img {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  margin-left: 5.4rem;
+}
+
+.leaders-card {
+  height: 90%;
+  display: flex;
+  padding-right: 3rem;
+}
+
+.credentials-section {
+  display: flex;
+}
+
+#cto {
+  padding-left: 20rem;
+  position: relative;
+  right: 6%;
+}
+
+#ceo {
+  padding-left: 20rem;
+  position: relative;
+  right: 2%;
+}
+
+#coo {
+  padding-left: 20rem;
+  position: relative;
+  left: 4%;
+}
+
+.footer-section {
+  height: 30vh;
+  width: 100vw;
+  background-color: black;
+  color: wheat;
+  text-align: center;
+  padding-top: 5rem;
+  margin-top: 3rem;
+}
